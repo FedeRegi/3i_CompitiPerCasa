@@ -13,6 +13,8 @@ using namespace std ;
          N--  ;
          num++ ;
          }
+      else
+         num++ ;
       }
    return 0;
    }

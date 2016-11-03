@@ -18,10 +18,12 @@ using namespace std ;
    cout << "I numeri pari sono: " << endl;
       while (N != 0){
          if (num%2 == 0){
-            cout << num << endl;
+            cout << num << " " ;
             N--  ;
             num++ ;
             }
+         else
+            num++ ;
          }
    return 0;
    }
